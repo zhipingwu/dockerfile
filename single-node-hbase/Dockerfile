@@ -11,4 +11,4 @@ RUN echo "export JAVA_HOME=/usr/local/openjdk-8" >> /usr/local/hadoop/hbase/hbas
 
 EXPOSE 2181
 #设置启动命令
-CMD /usr/local/hadoop/hbase/hbase-1.3.6/bin/start-hbase.sh
+CMD /usr/local/hadoop/hbase/hbase-1.3.6/bin/start-hbase.sh && sleep 999999999999
